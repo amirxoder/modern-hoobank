@@ -4,7 +4,7 @@ import styles, { layout } from "../style";
 
 const Billing = () => {
   return (
-    <sectoin id="product" className={layout.sectionReverse}>
+    <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
           src={bill}
@@ -40,7 +40,7 @@ const Billing = () => {
           />
         </div>
       </div>
-    </sectoin>
+    </section>
   );
 };
 
